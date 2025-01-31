@@ -5,7 +5,7 @@ import logger from '../logger/Logger';
 
 test.describe('checkout feature tests', () => {
 
-  test.only('purchase an item', async ({ page }) => {
+  test('purchase an item', async ({ page }) => {
     const appUrl = 'https://www.saucedemo.com/'; 
 
     logger.info(`Navigate to ${appUrl}`);
